@@ -67,7 +67,8 @@ sql
 ## Limitations and Challenges
 
 One significant limitation encountered during the analysis is related to the handling of promotions with the 'BOGOF' (Buy One Get One Free) promotion type. The dataset does not accurately account for the quantity of the free item provided as part of the promotion. This limitation may lead to some discrepancies or misunderstandings in the analysis, particularly when evaluating the effectiveness of 'BOGOF' promotions and comparing them with other promotion types.
-Results and Insights
+
+## Results and Insights
 
 The analysis revealed several key insights:
 
@@ -81,10 +82,12 @@ These insights can help AtliQ Mart make informed decisions for future promotiona
 Conclusion
 
 Overall, the analysis provides valuable insights into the performance of promotional campaigns conducted by AtliQ Mart during Diwali 2023 and Sankranti 2024. By leveraging data analytics, AtliQ Mart can enhance its marketing strategies, attract more customers, and drive higher sales during festive seasons.
-Additional Insights
+
+## Additional Insights Using PowerBi
 
 In addition to the main business requests, the following recommended insights were explored during the analysis:
-Store Performance Analysis
+
+### Store Performance Analysis
 
     Top 10 Stores by Incremental Revenue (IR)
     Bottom 10 Stores by Incremental Sold Units (ISU)
