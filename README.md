@@ -1,20 +1,22 @@
-## AtliQ Mart’s Diwali & Sankranti Promotions Analysis
+# AtliQ Mart’s Diwali & Sankranti Promotions Analysis
 
 Welcome to the repository containing SQL scripts used to analyze the performance of promotional campaigns run by AtliQ Mart during Diwali 2023 and Sankranti 2024. This project addresses various business requests related to identifying high-value discounted products, store distribution, campaign effectiveness, and product performance in terms of incremental sales and revenue.
 
-##Introduction
+## Introduction
 
 Promotional campaigns play a crucial role in the retail industry, driving sales and attracting customers during festive seasons. This project aims to analyze the performance of promotional campaigns conducted by AtliQ Mart during Diwali 2023 and Sankranti 2024. By leveraging data analytics, we seek to gain insights into the effectiveness of these campaigns and provide recommendations for optimizing future marketing strategies.
-Data Sources
+
+## Data Sources
 
 The analysis is based on data obtained from AtliQ Mart's internal databases. The main datasets used include fact_events, dim_products, dim_stores, and sales_summary. These datasets contain information about product sales, store locations, promotional events, and campaign revenues.
-Project Overview
+
+## Project Overview
 
     Analyzed data from AtliQ Mart's internal databases.
     Performed SQL queries to fulfill five business requests.
     Insights are intended to inform future promotional strategies and resource allocation.
 
-Business Requests
+## Business Requests
 
     High-Value Products in 'BOGOF' Promotion
 
@@ -62,7 +64,7 @@ sql
 
     -- SQL script for top 5 products by incremental revenue percentage
 
-Limitations and Challenges
+## Limitations and Challenges
 
 One significant limitation encountered during the analysis is related to the handling of promotions with the 'BOGOF' (Buy One Get One Free) promotion type. The dataset does not accurately account for the quantity of the free item provided as part of the promotion. This limitation may lead to some discrepancies or misunderstandings in the analysis, particularly when evaluating the effectiveness of 'BOGOF' promotions and comparing them with other promotion types.
 Results and Insights
@@ -88,23 +90,24 @@ Store Performance Analysis
     Bottom 10 Stores by Incremental Sold Units (ISU)
     City-wise Store Performance
 
-Promotion Type Analysis
+### Promotion Type Analysis
 
     Top 2 Promotion Types by Incremental Revenue
     Bottom 2 Promotion Types by Incremental Sold Units
     Comparison of Promotion Types
     Optimal Promotion Type
 
-Product and Category Analysis
+### Product and Category Analysis
 
     High-Lifting Product Categories
     Product Responsiveness to Promotions
     Correlation between Product Category and Promotion Type Effectiveness
 
-Visualizations
+### Visualizations
 
-Explore the live Power BI dashboard for interactive visualizations: Retail Promotions Analysis Dashboard
-Future Work
+Explore the live Power BI dashboard for interactive visualizations: [Retail Promotions Analysis Dashboard](https://www.novypro.com/project/retail-promotions-analysis)
+
+## Future Work
 
 Future work could include:
 
