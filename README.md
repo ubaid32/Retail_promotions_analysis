@@ -18,51 +18,20 @@ The analysis is based on data obtained from AtliQ Mart's internal databases. The
 
 ## Business Requests
 
-    High-Value Products in 'BOGOF' Promotion
+- High-Value Products in 'BOGOF' Promotion
+Objective: Identify high-value products featured in the 'BOGOF' (Buy One Get One Free) promotion.
 
-    Objective: Identify high-value products featured in the 'BOGOF' (Buy One Get One Free) promotion.
-
-    sql
-
-SELECT * 
-FROM fact_events 
-WHERE base_price > 500 
-AND promo_type = 'BOGOF';
-
-Store Presence Overview
-
+* Store Presence Overview
 Objective: Provide an overview of the number of stores in each city.
 
-sql
-
-SELECT city, COUNT(*) AS store_count
-FROM dim_stores
-GROUP BY city
-ORDER BY store_count DESC;
-
-Promotional Campaign Revenue Analysis
-
++ Promotional Campaign Revenue Analysis
 Objective: Display total revenue generated before and after each promotional campaign.
 
-sql
-
--- SQL script for promotional campaign revenue analysis
-
-Incremental Sold Quantity Analysis during Diwali Campaign
-
+- Incremental Sold Quantity Analysis during Diwali Campaign
 Objective: Calculate Incremental Sold Quantity (ISU%) for each category during the Diwali campaign.
 
-sql
-
--- SQL script for incremental sold quantity analysis during Diwali campaign
-
-Top 5 Products by Incremental Revenue Percentage
-
+* Top 5 Products by Incremental Revenue Percentage
 Objective: Identify the top 5 products ranked by Incremental Revenue Percentage (IR%) across all campaigns.
-
-sql
-
-    -- SQL script for top 5 products by incremental revenue percentage
 
 ## Limitations and Challenges
 
