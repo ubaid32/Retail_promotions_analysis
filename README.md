@@ -1,5 +1,4 @@
-# AtliQ Mart’s Diwali & Sankranti Promotions Analysis
-
+# AtliQ Mart’s Retail Promotion Analysis
 Welcome to the repository containing SQL scripts used to analyze the performance of promotional campaigns run by AtliQ Mart during Diwali 2023 and Sankranti 2024. This project addresses various business requests related to identifying high-value discounted products, store distribution, campaign effectiveness, and product performance in terms of incremental sales and revenue.
 
 ## Introduction
