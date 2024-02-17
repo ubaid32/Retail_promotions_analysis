@@ -11,9 +11,9 @@ The analysis is based on data obtained from AtliQ Mart's internal databases. The
 
 ## Project Overview
 
--Analyzed data from AtliQ Mart's internal databases.
-*Performed SQL queries to fulfill five business requests.
-+Insights are intended to inform future promotional strategies and resource allocation.
+- Analyzed data from AtliQ Mart's internal databases.
+* Performed SQL queries to fulfill five business requests.
++ Insights are intended to inform future promotional strategies and resource allocation.
 
 ## Business Requests
 
