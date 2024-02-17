@@ -20,7 +20,7 @@ The analysis is based on data obtained from AtliQ Mart's internal databases. The
 
 Identify high-value products featured in the 'BOGOF' (Buy One Get One Free) promotion.
 
-[Query1](Q1(Business Reuests).sql)
+[Query1](Retail_promotions_analysis/Q1(Business Reuests).sql)
 
 Provide an overview of the number of stores in each city.
 [Query2](Q2(Business Reuests).sql)
