@@ -51,22 +51,22 @@ In addition to the main business requests, the following recommended insights we
 
 ### Store Performance Analysis
 
--Top 10 Stores by Incremental Revenue (IR)
-*Bottom 10 Stores by Incremental Sold Units (ISU)
-+City-wise Store Performance
+- Top 10 Stores by Incremental Revenue (IR)
+* Bottom 10 Stores by Incremental Sold Units (ISU)
++ City-wise Store Performance
 
 ### Promotion Type Analysis
 
--Top 2 Promotion Types by Incremental Revenue
-*Bottom 2 Promotion Types by Incremental Sold Units
-+Comparison of Promotion Types
--Optimal Promotion Type
+- Top 2 Promotion Types by Incremental Revenue
+* Bottom 2 Promotion Types by Incremental Sold Units
++ Comparison of Promotion Types
+- Optimal Promotion Type
 
 ### Product and Category Analysis
 
--High-Lifting Product Categories
-*Product Responsiveness to Promotions
-+Correlation between Product Category and Promotion Type Effectiveness
+- High-Lifting Product Categories
+* Product Responsiveness to Promotions
++ Correlation between Product Category and Promotion Type Effectiveness
 
 ### Visualizations
 
@@ -76,9 +76,9 @@ Explore the live Power BI dashboard for interactive visualizations: [Retail Prom
 
 Future work could include:
 
--Predictive Analytics 
+### Predictive Analytics 
 Study predictive modeling techniques to forecast future sales based on historical data. Techniques such as time series forecasting, regression analysis, and machine learning algorithms like decision trees, random forests, and neural networks can be useful for predicting sales trends.
-*Customer Segmentation
+### Customer Segmentation
 Understand how to segment customers based on their purchasing behavior, demographics, or other relevant factors. Customer segmentation can help identify high-value customers, target marketing efforts more effectively, and optimize product offerings.
-+Market Basket Analysis
+### Market Basket Analysis
 Learn about market basket analysis techniques to identify relationships between products frequently purchased together. Association rule mining algorithms like Apriori can help uncover valuable insights for cross-selling and product bundling strategies.
