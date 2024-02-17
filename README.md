@@ -18,21 +18,11 @@ The analysis is based on data obtained from AtliQ Mart's internal databases. The
 
 ## Business Requests
 
-Identify high-value products featured in the 'BOGOF' (Buy One Get One Free) promotion.
-
-[Query1](Retail_promotions_analysis/Q1(Business Reuests).sql)
-
-Provide an overview of the number of stores in each city.
-[Query2](Q2(Business Reuests).sql)
-
-Display total revenue generated before and after each promotional campaign.
-[Query3](Q3 new (Business Reuests).sql)
-
-Calculate Incremental Sold Quantity (ISU%) for each category during the Diwali campaign.
-[Query4](Q4(Business Reuests).sql)
-
-Identify the top 5 products ranked by Incremental Revenue Percentage (IR%) across all campaigns.
-[Query5](Q5(Business Reuests).sql)
+- Identify high-value products featured in the 'BOGOF' (Buy One Get One Free) promotion.
+* Provide an overview of the number of stores in each city.
++ Display total revenue generated before and after each promotional campaign.
+- Calculate Incremental Sold Quantity (ISU%) for each category during the Diwali campaign.
+* Identify the top 5 products ranked by Incremental Revenue Percentage (IR%) across all campaigns.
 
 ## Limitations and Challenges
 
@@ -42,14 +32,15 @@ One significant limitation encountered during the analysis is related to the han
 
 The analysis revealed several key insights:
 
-    High-value products featured in 'BOGOF' promotions.
-    Distribution of stores across different cities.
-    Total revenue generated before and after each promotional campaign.
-    Incremental sold quantity and revenue percentage during the Diwali campaign.
-    Top 5 products ranked by incremental revenue percentage.
+- High-value products featured in 'BOGOF' promotions.
+* Distribution of stores across different cities.
++ Total revenue generated before and after each promotional campaign.
+- Incremental sold quantity and revenue percentage during the Diwali campaign.
+* Top 5 products ranked by incremental revenue percentage.
 
 These insights can help AtliQ Mart make informed decisions for future promotional activities, optimize resource allocation, and improve overall sales performance.
-Conclusion
+
+##Conclusion
 
 Overall, the analysis provides valuable insights into the performance of promotional campaigns conducted by AtliQ Mart during Diwali 2023 and Sankranti 2024. By leveraging data analytics, AtliQ Mart can enhance its marketing strategies, attract more customers, and drive higher sales during festive seasons.
 
