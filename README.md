@@ -19,14 +19,19 @@ The analysis is based on data obtained from AtliQ Mart's internal databases. The
 ## Business Requests
 
 - Identify high-value products featured in the 'BOGOF' (Buy One Get One Free) promotion.
+[Query](Q1(Business Reuests).sql)
 
 * Provide an overview of the number of stores in each city.
+[Query](Q2(Business Reuests).sql)
 
 + Display total revenue generated before and after each promotional campaign.
+[Query](Q3 new (Business Reuests).sql)
 
 - Calculate Incremental Sold Quantity (ISU%) for each category during the Diwali campaign.
+[Query](Q4(Business Reuests).sql)
 
 * Identify the top 5 products ranked by Incremental Revenue Percentage (IR%) across all campaigns.
+[Query](Q5(Business Reuests).sql)
 
 ## Limitations and Challenges
 
