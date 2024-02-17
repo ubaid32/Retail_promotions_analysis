@@ -12,9 +12,9 @@ The analysis is based on data obtained from AtliQ Mart's internal databases. The
 
 ## Project Overview
 
-    Analyzed data from AtliQ Mart's internal databases.
-    Performed SQL queries to fulfill five business requests.
-    Insights are intended to inform future promotional strategies and resource allocation.
+-Analyzed data from AtliQ Mart's internal databases.
+*Performed SQL queries to fulfill five business requests.
++Insights are intended to inform future promotional strategies and resource allocation.
 
 ## Business Requests
 
@@ -26,7 +26,8 @@ The analysis is based on data obtained from AtliQ Mart's internal databases. The
 
 ## Limitations and Challenges
 
-One significant limitation encountered during the analysis is related to the handling of promotions with the 'BOGOF' (Buy One Get One Free) promotion type. The dataset does not accurately account for the quantity of the free item provided as part of the promotion. This limitation may lead to some discrepancies or misunderstandings in the analysis, particularly when evaluating the effectiveness of 'BOGOF' promotions and comparing them with other promotion types.
+One significant challenge was encountered during the analysis is related to the handling of promotions with the 'BOGOF' (Buy One Get One Free) promotion type. The dataset does not accurately account for the quantity of the free item provided as part of the promotion. This limitation may lead to some discrepancies or misunderstandings in the analysis, particularly when evaluating the effectiveness of 'BOGOF' promotions and comparing them with other promotion types.
+Other than that one limitation of dataset was the unavailability of consumer information as it was not possible to study customers behavior regarding the promotions.
 
 ## Results and Insights
 
@@ -40,7 +41,7 @@ The analysis revealed several key insights:
 
 These insights can help AtliQ Mart make informed decisions for future promotional activities, optimize resource allocation, and improve overall sales performance.
 
-##Conclusion
+## Conclusion
 
 Overall, the analysis provides valuable insights into the performance of promotional campaigns conducted by AtliQ Mart during Diwali 2023 and Sankranti 2024. By leveraging data analytics, AtliQ Mart can enhance its marketing strategies, attract more customers, and drive higher sales during festive seasons.
 
@@ -50,22 +51,22 @@ In addition to the main business requests, the following recommended insights we
 
 ### Store Performance Analysis
 
-    Top 10 Stores by Incremental Revenue (IR)
-    Bottom 10 Stores by Incremental Sold Units (ISU)
-    City-wise Store Performance
+-Top 10 Stores by Incremental Revenue (IR)
+*Bottom 10 Stores by Incremental Sold Units (ISU)
++City-wise Store Performance
 
 ### Promotion Type Analysis
 
-    Top 2 Promotion Types by Incremental Revenue
-    Bottom 2 Promotion Types by Incremental Sold Units
-    Comparison of Promotion Types
-    Optimal Promotion Type
+-Top 2 Promotion Types by Incremental Revenue
+*Bottom 2 Promotion Types by Incremental Sold Units
++Comparison of Promotion Types
+-Optimal Promotion Type
 
 ### Product and Category Analysis
 
-    High-Lifting Product Categories
-    Product Responsiveness to Promotions
-    Correlation between Product Category and Promotion Type Effectiveness
+-High-Lifting Product Categories
+*Product Responsiveness to Promotions
++Correlation between Product Category and Promotion Type Effectiveness
 
 ### Visualizations
 
@@ -75,6 +76,9 @@ Explore the live Power BI dashboard for interactive visualizations: [Retail Prom
 
 Future work could include:
 
-    Exploring additional datasets to gain deeper insights into customer behavior and preferences.
-    Conducting more granular analysis on specific product categories or regions.
-    Implementing machine learning models for predictive analytics to forecast sales and optimize promotional strategies.
+-Predictive Analytics 
+Study predictive modeling techniques to forecast future sales based on historical data. Techniques such as time series forecasting, regression analysis, and machine learning algorithms like decision trees, random forests, and neural networks can be useful for predicting sales trends.
+*Customer Segmentation
+Understand how to segment customers based on their purchasing behavior, demographics, or other relevant factors. Customer segmentation can help identify high-value customers, target marketing efforts more effectively, and optimize product offerings.
++Market Basket Analysis
+Learn about market basket analysis techniques to identify relationships between products frequently purchased together. Association rule mining algorithms like Apriori can help uncover valuable insights for cross-selling and product bundling strategies.
